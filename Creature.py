@@ -6,6 +6,8 @@ from filler_creatures import creatures, abilities
 
 logging.basicConfig(level=logging.DEBUG)
 
+#Ojala mi internet fuera asi
+
 class Ability(Document):
     name = StringField(required=True, unique=True)
     effect_stat = IntField()
